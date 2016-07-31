@@ -1,5 +1,5 @@
 # controller_patch_configs
-Collection of config files for the controller patcher. These files are compatible will all app that use the controller_patcher engine (e.g. HID to VPAD, loaddine GX2).
+Collection of config files for the controller patcher. These files are compatible will all app that use the controller_patcher engine (e.g. [HID to VPAD](https://github.com/Maschell/hid_to_vpad), [loadiine GX2](https://github.com/dimok789/loadiine_gx2)).
 
 #Target location of the files
 The files need to be put on the SD Card in the following folder:
