@@ -8,4 +8,4 @@ sd:/wiiu/controller
 ```
 
 #How to create own files
-Read the controller pather [wiki](https://github.com/Maschell/controller_patcher/wiki) to get detailed information about creating own files.
+Read the controller patcher [wiki](https://github.com/Maschell/controller_patcher/wiki) to get detailed information about creating own files.
