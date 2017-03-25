@@ -1,0 +1,59 @@
+// HiD to Vpad  config file for this controller https://boutique.orange.fr/media-cms/mediatheque/504x504-manette-gamer-sans-fil-vue1-53197.jpg
+// plug the usb adapter given withe controller in the USB port of the WiiU
+
+[vid=0x146B,pid=0xA101]
+
+VPAD_BUTTON_A = 0x00,0x02
+VPAD_BUTTON_B = 0x00,0x04
+VPAD_BUTTON_X = 0x00,0x01
+VPAD_BUTTON_Y = 0x00,0x08
+
+VPAD_BUTTON_PLUS = 0x01,0x02
+VPAD_BUTTON_MINUS = 0x01,0x01
+VPAD_BUTTON_HOME = 0x01,0x10
+
+VPAD_BUTTON_L = 0x00,0x10
+VPAD_BUTTON_R = 0x00,0x20
+
+VPAD_BUTTON_STICK_L = 0x01,0x04
+VPAD_BUTTON_STICK_R = 0x01,0x08
+
+VPAD_BUTTON_ZL = 0x00,0x40
+VPAD_BUTTON_ZR = 0x00,0x80
+
+
+DPAD_MODE                   =   DPAD_HAT  // normal mode
+DPad_MASK                   =   0x0F      // mask: 0x0F
+
+VPAD_BUTTON_DPAD_N          =   0x02,0x00 // postion: 0x02, value: 0x00
+VPAD_BUTTON_DPAD_NE         =   0x02,0x01 // postion: 0x02, value: 0x01
+VPAD_BUTTON_DPAD_E          =   0x02,0x02 // postion: 0x02, value: 0x02
+VPAD_BUTTON_DPAD_SE         =   0x02,0x03 // postion: 0x02, value: 0x03
+VPAD_BUTTON_DPAD_S          =   0x02,0x04 // postion: 0x02, value: 0x04
+VPAD_BUTTON_DPAD_SW         =   0x02,0x05 // postion: 0x02, value: 0x05
+VPAD_BUTTON_DPAD_W          =   0x02,0x06 // postion: 0x02, value: 0x06
+VPAD_BUTTON_DPAD_NW         =   0x02,0x07 // postion: 0x02, value: 0x07
+VPAD_BUTTON_DPAD_Neutral    =   0x02,0x0F // postion: 0x02, value: 0x0F
+
+//Analog Sticks
+
+VPad_L_Stick_X_Invert   =    //left stick X Axis
+VPad_L_Stick_Y_Invert   =   true //left stick Y Axis
+VPad_R_Stick_X_Invert   =    //right stick X Axis
+VPad_R_Stick_Y_Invert   =   true //right stick Y Axis
+
+VPAD_L_STICK_X = 0x03,0x80
+VPAD_L_STICK_X_MINMAX = 0x00,0xFF
+VPAD_L_STICK_X_DEADZONE = 0x05
+
+VPAD_L_STICK_Y = 0x04,0x80
+VPAD_L_STICK_Y_MINMAX = 0x00,0xFF
+VPAD_L_STICK_Y_DEADZONE = 0x05
+
+VPAD_R_STICK_X = 0x05,0x80
+VPAD_R_STICK_X_MINMAX = 0x00,0xFF
+VPAD_R_STICK_X_DEADZONE = 0x05
+
+VPAD_R_STICK_Y = 0x06,0x80
+VPAD_R_STICK_Y_MINMAX = 0x00,0xFF
+VPAD_R_STICK_Y_DEADZONE = 0x05
