@@ -1,0 +1,42 @@
+//MadCatz TE2+ Fightstick (PS4 Mode)
+[vid=0x0738,pid=0x8481]
+
+//DPad
+DPAD_MODE                  =   DPAD_Absolute_2Values
+
+VPAD_BUTTON_DPAD_ABS_UP    =   0x05, 0x00 // byte at postion 0x01 needs to be 0x00
+VPAD_BUTTON_DPAD_ABS_DOWN  =   0x05, 0x04 // byte at postion 0x01 needs to be 0xFF
+VPAD_BUTTON_DPAD_ABS_LEFT  =   0x05, 0x06 // byte at postion 0x00 needs to be 0x00
+VPAD_BUTTON_DPAD_ABS_RIGHT =   0x05, 0x02 // byte at postion 0x00 needs to be 0xFF
+
+//Buttons
+VPAD_BUTTON_A			=	0x05,	0x4F
+VPAD_BUTTON_B			=	0x05,	0x2F
+VPAD_BUTTON_X			=	0x05,	0x8F
+VPAD_BUTTON_Y			=	0x05,	0x1F
+VPAD_BUTTON_PLUS		=	0x06,	0x80
+VPAD_BUTTON_MINUS		=	0x06,	0x40
+VPAD_BUTTON_HOME		=	0x06,	0x20
+VPAD_BUTTON_L			=	0x06,	0x01
+VPAD_BUTTON_R			=	0x06,	0x02
+VPAD_BUTTON_STICK_L		=	0x07,	0x02
+VPAD_BUTTON_STICK_R		=	0x06,	0x10
+
+//Triggers
+VPAD_BUTTON_ZL			=	0x06,	0x04
+VPAD_BUTTON_ZR			=	0x06,	0x08
+
+//Thumbsticks
+VPad_L_Stick_X          =   0x01,0x80 // postion: 0x03, neutral value: 0x80
+VPad_L_Stick_X_MinMax   =   0x00,0xFF // min value: 0x00, max value: 0xFF
+
+VPad_L_Stick_Y          =   0x02,0x80 // postion: 0x04, neutral value: 0x80
+VPad_L_Stick_Y_MinMax   =   0x00,0xFF // min value: 0x00, max value: 0xFF
+VPad_L_Stick_Y_Invert   =   True      //invert Y-Axis
+
+VPad_R_Stick_X          =   0x03,0x80 // postion: 0x02, neutral value: 0x80
+VPad_R_Stick_X_MinMax   =   0x00,0xFF // min value: 0x00, max value: 0xFF
+
+VPad_R_Stick_Y          =   0x04,0x80 // postion: 0x01, neutral value: 0x80
+VPad_R_Stick_Y_MinMax   =   0x00,0xFF // min value: 0x00, max value: 0xFF
+VPad_R_Stick_Y_Invert   =   True      //invert Y-Axis
